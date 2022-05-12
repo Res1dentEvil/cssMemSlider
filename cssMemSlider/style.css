@@ -41,3 +41,8 @@ body {
     opacity: 1;
     transform: scale(1.1);
 }
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
