@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,46 @@
     <link rel="stylesheet" href="style.css">
     <title>mem slider</title>
 </head>
+
 <body>
-    <div class="slider middle">
+    <div class="wrapper">
+        <input id="r1" type="radio" name='r' checked>
+        <input id="r2" type="radio" name='r'>
+        <input id="r3" type="radio" name='r'>
+        <input id="r4" type="radio" name='r'>
+
         <div class="slides">
-            <input type="radio" name="r" id="r1" checked>
-            <input type="radio" name="r" id="r2">
-            <input type="radio" name="r" id="r3">
-            <input type="radio" name="r" id="r4">
-
-            <div class="slide"><img src="img/1.jpg" alt=""></div>
-            <div class="slide"><img src="img/2.png" alt=""></div>
-            <div class="slide"><img src="img/3.jpg" alt=""></div>
-            <div class="slide"><img src="img/4.jpg" alt=""></div>
+            <img src="img/1.jpg" alt="1" class="slide slide1">
+            <img src="img/2.png" alt="2" class="slide slide2">
+            <img src="img/3.jpg" alt="3" class="slide slide3">
+            <img src="img/4.jpg" alt="4" class="slide slide4">
         </div>
 
-        <div class="navigation">
-            <label for="r1" class="bar"></label>
-            <label for="r2" class="bar"></label>
-            <label for="r3" class="bar"></label>
-            <label for="r4" class="bar"></label>
-        </div>
+        <div class="textControls">
+            <div class="textSlides">
+                <div class="text text1">LOL</div>
+                <div class="text text2">KEK</div>
+                <div class="text text3">CHEBUREK</div>
+                <div class="text text4">!!1</div>
+            </div>
 
+            <div class="controls">
+                <label for="r1" class="label">
+                    <label for="r1" class="label1"></label>
+                </label>
+                <label for="r2" class="label">
+                    <label for="r2" class="label2"> </label>
+                </label>
+                <label for="r3" class="label">
+                    <label for="r3" class="label3"></label>
+                </label>
+                <label for="r4" class="label">
+                    <label for="r4" class="label4"></label>
+                </label>
+            </div>
+
+        </div>
     </div>
 </body>
+
 </html>
